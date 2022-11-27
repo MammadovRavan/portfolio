@@ -2,26 +2,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 114.49px;
-    padding-right: 114.49px;
+ padding-right: 114.49px; 
     padding-top: 44.98px;
 }
-header> .nav-links a{
+
+header>.nav-links a {
     color: #000;
     text-decoration: none;
-    padding:16px;
-   
+    padding: 16px;
+
 }
-header a:hover{
+
+header a:hover {
     text-decoration: underline;
 }
-.design h1{
-    color: yellow;
+
+.fa-bars-staggered {
+    display: none;
 }
+
+.introsection {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7.03rem;
+    padding-right: 7.03;
+    flex-wrap: wrap;
+}
+
+.intro-left-side h1 span {
+    color: #FF8A56;
+}
+
+.intro-left-side h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 82.5px;
+}
+
+.intro-left-side p {
+    font-size: 22px;
+    padding-top: 40px;
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 30px;
+    line-height: 33px;
+}
+
+.intro-right-side img {
+    width: 500px;
+    height: 595px;
+
+}
+
+.intro-left-side {
+    padding-top: 7.31rem;
+    min-width:680px;
+}
+
+.intro-right-side {
+    padding-top: 4.37rem;
+    min-width: 400px;
+}
+
+.intro-left-side button {
+    width: 140px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+}
+
+.intro-left-side a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.intro-left-side a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width:950px) {
+    .fa-bars-staggered {
+        display: flex;
+    }
+
+    .nav-links a {
+        display: none;
+    }
+
+    /* header */
+
+    .introsection{
+        padding-left:0 ;
+        padding-right:0 ;
+    }
+    .intro-left-side{
+        min-width: 500px;
+        text-align: center;
+        padding-top: 40px;
+        flex-basis: 100%;
+    }
+    .intro-right-side{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    }
+
+    @media(max-width:1294px) and (min-width:950px){
+        .intro-left-side{
+            flex-basis: 100%;
+            text-align: center;
+        }
+        .introsection{
+            padding-left:0 ;
+            padding-right:0 ;
+        }
+        .intro-right-side{
+            flex-basis: 100%;
+            text-align: center;
+        }
+    }
