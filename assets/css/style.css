@@ -716,7 +716,7 @@ h6 {
     padding-right: 112px;
     padding-top: 26px;
 }
-@media(max-width:1660px){
+@media(max-width:1510px){
     .project-card:nth-child(3){
         display: none;
     }
@@ -819,7 +819,8 @@ h6 {
         line-height: 33px;
         padding-bottom: 44px;
       }
-  
+
+
   .view-all-projects button{
       width: 120px;
       height: 40px;
@@ -869,7 +870,7 @@ h6 {
     padding-left: 30px;
 }
 .project-card-bottom{
-    padding-left: 30px;
+    padding-left: 20px;
 }
 }
 @media(max-width:400px){
@@ -924,11 +925,14 @@ h6 {
     height: 30px;
 }
 .slider-btns{
-    padding-right: 20px;
+    padding-right: 10px;
     padding-top: 14px;
 }
 .projects-section{
     padding-left: 10px;
+}
+.project-card-bottom{
+    padding-left: 13px;
 }
 
 }
