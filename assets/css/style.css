@@ -1091,6 +1091,9 @@ h6 {
     .blog-left-side {
         min-width: 300px;
     }
+    .latest-blog-section h1{
+        min-width: 320px;
+    }
 }
 
 @media(max-width:600px) {
@@ -1119,7 +1122,9 @@ h6 {
         letter-spacing: 1px;
         padding-top: 17px;
         padding-bottom: 28px;
+        min-width: 290px;
     }
+   
 
 
     .blog-right-side span {
@@ -1213,6 +1218,7 @@ h6 {
         letter-spacing: 1px;
         padding-top: 10px;
         padding-bottom: 15px;
+        min-width: 250px;
     }
 
     .blog a {
@@ -1265,6 +1271,7 @@ h6 {
         letter-spacing: 1px;
         padding-top: 8px;
         padding-bottom: 11px;
+        min-width: 230px;
     }
 
 
@@ -1314,6 +1321,7 @@ padding-right: 15px;
         letter-spacing: 1px;
         padding-top: 6px;
         padding-bottom: 9px;
+       
     }
 
 
@@ -1426,7 +1434,10 @@ padding-right: 15px;
 }
 @media(max-width:719px){
     .product-design{
-        padding: 90px 60px 60px 60px;
+        padding-top: 90px;
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
     }
     .product-design h5{
         font-size: 18px;
@@ -1440,14 +1451,31 @@ padding-right: 15px;
     .thats-me-section p{
         font-size: 18px;
         line-height: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .thats-me-section{
         padding-bottom: 40px;
+        justify-content: center;
+    }
+    .thats-me-image-section{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+         justify-content: center; 
+    }
+    .thats-me-image-section img{
+    width: 338px;
+    padding-bottom: 10px;
+   
+    }
+    .right-side> .right-side-top{
+        margin-bottom: 0px;
     }
 }
 @media(max-width:550px){
     .product-design{
-        padding: 70px 40px 40px 40px;
+        padding-top: 70px;
+       text-align: center;
     }
     .product-design h5{
         font-size: 16px;
@@ -1465,18 +1493,17 @@ padding-right: 15px;
     }
     .thats-me-section{
         padding-bottom: 30px;
+        justify-content: center;
     }
-    .thats-me-image-section > .center{
-        margin-left: 10px;
-        margin-right: 10px;
+   
+    .thats-me-image-section img{
+        width: 270px;
     }
-    .right-side> .right-side-top{
-        margin-bottom: 8px;
-    }
+   
 }
 @media(max-width:450px){
     .product-design{
-        padding: 50px 30px 30px 30px;
+        padding-top: 50px;
     }
     .product-design h5{
         font-size: 14px;
@@ -1498,7 +1525,7 @@ padding-right: 15px;
 }
 @media(max-width:400px){
     .product-design{
-        padding: 30px 15px 15px 15px;
+        padding-top: 30px;
     }
     .product-design h5{
         font-size: 12px;
@@ -1512,25 +1539,24 @@ padding-right: 15px;
     .thats-me-section p{
         font-size: 12px;
         line-height: 15px;
-        
+        min-width: 200px;
     }
-    .thats-me-image-section > .center{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .right-side> .right-side-top{
-        margin-bottom: 4px;
-    }
+   
     .thats-me-section{
         padding-bottom: 15px;
+        
     }
-    .thats-me-image-section:nth-child(1),
-.thats-me-image-section:nth-child(3){
-    min-width:200px;
+  
 }
-.thats-me-image-section:nth-child(2){
-    min-width: 300px;
+@media(max-width:345px){
+    .thats-me-image-section {
+        min-width: 280px !important;
+         }
+         .thats-me-image-section img{
+            width: 200px;
+            padding-bottom: 7px;
+         }
 }
-}
+
 
 /* product-design-section end */
