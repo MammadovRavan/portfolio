@@ -1616,6 +1616,7 @@ padding-right: 15px;
 }
 .work-section{
     display: flex;
+    flex-basis: 100%;
 }
 .work-top{
     display: flex;
@@ -1636,7 +1637,9 @@ padding-right: 15px;
 }
 .work{
     flex-basis: 100%;
+
 }
+
 .work-side span{
     font-size: 16px;
     color: #666666;
@@ -1644,8 +1647,143 @@ padding-right: 15px;
 .education-side:nth-child(1){
     border-bottom: none;
 }
-.work-side:nth-child(2){
+.work-side:nth-child(1){
     border-bottom: none;
 }
-
+@media(max-width:1300px){
+    .education-side{
+        min-width:537px ;
+        flex-basis: 100%;
+    }
+    .work-side{
+        min-width: 537px;
+    }
+    .education-work-section{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:786px){
+.education-work-section{
+   padding-right: 50px;
+   padding-left: 50px;
+   padding-top: 50px;
+}
+.education-side{
+    min-width: 512px;
+}
+.work-side{
+    min-width: 512px;
+}
+}
+@media(max-width:612px){
+    .education-side h1{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .education-side h5{
+        font-size: 20px;
+    }
+    .education-side span{
+        font-size: 13px;
+    }
+    .work-side h1{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .work-side h5{
+        font-size: 20px;
+    }
+    .work-side span{
+        font-size: 13px;
+    }
+    .education-side{
+        min-width: 400px;
+    }
+    .work-side{
+        min-width: 400px;
+    }
+}
+@media(max-width:476px){
+    .education-work-section{
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 30px;
+     }
+    .education-side h1{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .education-side h5{
+        font-size: 17px;
+    }
+    .education-side{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .education-side span{
+        font-size: 10px;
+    }
+    .work-side{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .work-side h1{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .work-side h5{
+        font-size: 17px;
+    }
+    .work-side span{
+        font-size: 10px;
+    }
+    .education-side{
+        min-width: 350px;
+    }
+    .work-side{
+        min-width: 350px;
+    }
+}
+@media(max-width:382px){
+    .education-work-section{
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-top: 0;
+     gap: 15px;
+     }
+     .education-side h1{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .education-side h5{
+        font-size: 17px;
+    }
+    .education-side{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .education-side span{
+        font-size: 10px;
+    }
+    .work-side{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .work-side h1{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .work-side h5{
+        font-size: 17px;
+    }
+    .work-side span{
+        font-size: 10px;
+    }
+    .education-side{
+        min-width: 350px;
+    }
+    .work-side{
+        min-width: 350px;
+    }
+}
 /* education-work-section end */
