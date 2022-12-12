@@ -2325,10 +2325,12 @@ h6 {
         padding-top: 20px;
         padding-bottom: 35px;
     }
-    .faq-card{
+
+    .faq-card {
         width: 500px;
     }
 }
+
 @media(max-width:600px) {
     .faq-section h1 {
         font-size: 17px;
@@ -2346,10 +2348,12 @@ h6 {
         padding-top: 20px;
         padding-bottom: 35px;
     }
-    .faq-card{
+
+    .faq-card {
         width: 400px;
     }
 }
+
 @media(max-width:450px) {
     .faq-section h1 {
         font-size: 15px;
@@ -2368,11 +2372,13 @@ h6 {
         padding-top: 15px;
         padding-bottom: 25px;
     }
-    .faq-card{
+
+    .faq-card {
         width: 300px;
         line-height: 30px;
     }
 }
+
 @media(max-width:368px) {
     .faq-section h1 {
         font-size: 13px;
@@ -2391,11 +2397,13 @@ h6 {
         padding-top: 14px;
         padding-bottom: 22px;
     }
-    .faq-card{
+
+    .faq-card {
         width: 250px;
         line-height: 20px;
     }
 }
+
 @media(max-width:317px) {
     .faq-section h1 {
         font-size: 12px;
@@ -2414,10 +2422,189 @@ h6 {
         padding-top: 12px;
         padding-bottom: 19px;
     }
-    .faq-card{
+
+    .faq-card {
         width: 230px;
         line-height: 16px;
     }
+
 }
 
 /* faq-section-end */
+
+/* final-secrion-start */
+
+.final-section {
+    background-color: #000;
+    padding: 178px 113px 195px;
+}
+
+.final-section h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 1px;
+}
+
+.final-section h2 {
+    color: #3C46FF;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 0.5px;
+}
+
+.final-section-top {
+    padding-bottom: 102px;
+}
+
+
+
+.final-section h4 {
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+}
+
+.img {
+    display: flex;
+    gap: 6px;
+}
+
+.final-section h5 {
+    color: #666666;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.final-section-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side {
+    display: flex;
+}
+
+.final-section-bottom>.right-side a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.about a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    padding-right: 142px;
+}
+
+.services a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    padding-right: 142px;
+}
+
+.experience a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+@media(max-width:1200px){
+    .final-section h1{
+        font-size: 48px;
+    }
+    .final-section h2{
+        font-size: 48px;
+    }
+
+    .about a{
+        padding-right: 100px;
+    }
+    .services a{
+        padding-right: 100px;
+    }
+}
+@media(max-width:1045px){
+    .final-section{
+        padding: 120px 80px;
+    }
+    .final-section-bottom > .left-side > .portfolio-creator img{
+       width: 180px;
+    }
+    .final-section-bottom > .left-side > .img img{
+        width: 25px;
+    }
+    .final-section h1{
+        font-size: 40px;
+    }
+    .final-section h2{
+        font-size: 40px;
+    }
+    .final-section h4{
+        font-size: 15px;
+        width: 180px;
+        line-height: 20px;
+        min-width: 210px;
+    }
+    .final-section h5{
+        font-size: 15px;
+    }
+    .faq-section-top{
+        padding-bottom: 80px;
+    }
+    .about a{
+        padding-right: 80px;
+    }
+    .services a{
+        padding-right: 80px;
+    }
+}
+@media(max-width:842px){
+    .final-section-bottom{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+@media(max-width:686px){
+    .final-section{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-right: 0 !important;
+        padding-left: 20px;
+        min-width: 500px;
+    }
+    .final-section-bottom > .left-side > .portfolio-creator img{
+       width: 160px;
+    }
+    .final-section-bottom > .left-side > .img img{
+        width: 23px;
+    }
+    .final-section h1{
+        font-size: 35px;
+        width: 500px;
+    }
+    .final-section h2{
+        font-size: 35px;
+    }
+    .final-section h4{
+        font-size: 15px;
+        width: 180px;
+        line-height: 20px;
+        min-width: 210px;
+    }
+    .final-section h5{
+        font-size: 15px;
+    }
+    .final-section-top{
+        padding-bottom: 60px;
+    }
+
+}
+
+/* final-secrion-end */
